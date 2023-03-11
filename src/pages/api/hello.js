@@ -3,7 +3,7 @@ const axios = require('axios')
 
 export default async function handler(req, res) {
   //key 
-  //await 
+  //await
 
   const key = process.env.OPENAI_KEY
   const endPoint = "https://api.openai.com/v1/completions"
